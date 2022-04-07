@@ -11,8 +11,7 @@ import UIKit
 private class MyCameraViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
-        print("Camera view called update again")
-        self.view.backgroundColor = .blue
+        print("Camera view called updates")
     }
 }
 
@@ -24,8 +23,9 @@ public class MyCameraView {
     }
     
     public func showController() {
-        let cameraView = MyCameraViewController()
-        cameraView.modalPresentationStyle = .fullScreen
-        self.rootController?.present(cameraView, animated: true, completion: nil)
+        if let viewController = UIStoryboard(name: "Storyboard", bundle: nil).instantiateInitialViewController() as? MyCameraViewController {
+            viewController.modalPresentationStyle = .fullScreen
+            self.rootController?.present(viewController, animated: true, completion: nil)
+        }
     }
 }
