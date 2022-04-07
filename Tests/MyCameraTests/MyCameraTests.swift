@@ -1,5 +1,5 @@
 import XCTest
-@testable import MyCamera
+@testable import MyCameraView
 
 final class MyCameraTests: XCTestCase {
     func testExample() {

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import MyCameraViewController
+import MyCameraView
 
 class ViewController: UIViewController {
 
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonClick(_ sender: Any) {
-        let cameraView = MyCameraViewController(root: self)
+        let cameraView = MyCameraView(root: self)
         cameraView.showController()
     }
     
