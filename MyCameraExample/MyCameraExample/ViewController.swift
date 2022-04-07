@@ -12,11 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let camera = LiveCamera()
-        camera.openCamera()
+        
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonClick(_ sender: Any) {
+        
+    }
+    
 }
 
