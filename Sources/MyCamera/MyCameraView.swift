@@ -11,7 +11,8 @@ import UIKit
 private class MyCameraViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
-        print("Camera view called update")
+        print("Camera view called update again")
+        self.view.backgroundColor = .blue
     }
 }
 
