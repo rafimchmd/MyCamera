@@ -11,7 +11,7 @@ import UIKit
 private class MyCameraViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
-        print("Camera view called updates")
+        print("Camera view called updatess")
     }
 }
 
