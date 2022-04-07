@@ -10,7 +10,7 @@ import UIKit
 
 public class LiveCamera {
     
-    init() {
+    public init() {
         
     }
     
