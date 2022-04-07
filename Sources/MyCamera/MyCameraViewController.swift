@@ -24,7 +24,7 @@ public class MyCameraViewController {
     
     public func showController() {
         let cameraView = MyCameraView()
-        cameraView.modalPresentationStyle = .fullScreen
+//        cameraView.modalPresentationStyle = .fullScreen
         self.rootController?.present(cameraView, animated: true, completion: nil)
     }
 }

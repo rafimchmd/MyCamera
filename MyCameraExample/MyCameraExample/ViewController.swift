@@ -6,18 +6,18 @@
 //
 
 import UIKit
-import MyCamera
+import MyCameraViewController
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
     }
 
     @IBAction func buttonClick(_ sender: Any) {
-        
+        let cameraView = MyCameraViewController(root: self)
+        cameraView.showController()
     }
     
 }

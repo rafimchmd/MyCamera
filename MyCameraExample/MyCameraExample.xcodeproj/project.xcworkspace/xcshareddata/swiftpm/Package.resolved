@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "MyCamera",
+        "package": "MyCameraView",
         "repositoryURL": "https://github.com/rafimchmd/MyCamera",
         "state": {
           "branch": "main",
-          "revision": "74466b8f7eca4aae411680d5fc610b18dd3c50ff",
+          "revision": "5021f49294425afadef97d18aecc598919c37356",
           "version": null
         }
       },
