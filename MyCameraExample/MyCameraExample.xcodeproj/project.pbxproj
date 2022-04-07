@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		5B2D825927FE98DC00DDC1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D825727FE98DC00DDC1AE /* Main.storyboard */; };
 		5B2D825B27FE98DD00DDC1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D825A27FE98DD00DDC1AE /* Assets.xcassets */; };
 		5B2D825E27FE98DD00DDC1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D825C27FE98DD00DDC1AE /* LaunchScreen.storyboard */; };
+		5BB2369927FEA66A001CCC0C /* MyCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB2369827FEA66A001CCC0C /* MyCamera */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB2369927FEA66A001CCC0C /* MyCamera in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = MyCameraExample;
+			packageProductDependencies = (
+				5BB2369827FEA66A001CCC0C /* MyCamera */,
+			);
 			productName = MyCameraExample;
 			productReference = 5B2D824E27FE98DC00DDC1AE /* MyCameraExample.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = 5B2D824527FE98DC00DDC1AE;
+			packageReferences = (
+				5BB2369727FEA66A001CCC0C /* XCRemoteSwiftPackageReference "MyCamera" */,
+			);
 			productRefGroup = 5B2D824F27FE98DC00DDC1AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BB2369727FEA66A001CCC0C /* XCRemoteSwiftPackageReference "MyCamera" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rafimchmd/MyCamera";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BB2369827FEA66A001CCC0C /* MyCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BB2369727FEA66A001CCC0C /* XCRemoteSwiftPackageReference "MyCamera" */;
+			productName = MyCamera;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5B2D824627FE98DC00DDC1AE /* Project object */;
 }
