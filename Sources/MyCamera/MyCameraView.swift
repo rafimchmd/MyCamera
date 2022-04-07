@@ -8,14 +8,14 @@
 import Foundation
 import UIKit
 
-public class MyCameraView: UIViewController {
+public class MyCameraViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         print("Camera view called")
     }
 }
 
-public class MyCameraViewController {
+public class MyCameraView {
     var rootController: UIViewController?
     
     public init(root: UIViewController) {
@@ -23,7 +23,7 @@ public class MyCameraViewController {
     }
     
     public func showController() {
-        let cameraView = MyCameraView()
+        let cameraView = MyCameraViewController()
 //        cameraView.modalPresentationStyle = .fullScreen
         self.rootController?.present(cameraView, animated: true, completion: nil)
     }
