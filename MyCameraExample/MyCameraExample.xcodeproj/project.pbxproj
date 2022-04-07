@@ -13,7 +13,7 @@
 		5B2D825927FE98DC00DDC1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D825727FE98DC00DDC1AE /* Main.storyboard */; };
 		5B2D825B27FE98DD00DDC1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D825A27FE98DD00DDC1AE /* Assets.xcassets */; };
 		5B2D825E27FE98DD00DDC1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D825C27FE98DD00DDC1AE /* LaunchScreen.storyboard */; };
-		5BB236A127FEB77B001CCC0C /* MyCameraView in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB236A027FEB77B001CCC0C /* MyCameraView */; };
+		5BB236A527FEB7F6001CCC0C /* MyCameraView in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB236A427FEB7F6001CCC0C /* MyCameraView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB236A127FEB77B001CCC0C /* MyCameraView in Frameworks */,
+				5BB236A527FEB7F6001CCC0C /* MyCameraView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = MyCameraExample;
 			packageProductDependencies = (
-				5BB236A027FEB77B001CCC0C /* MyCameraView */,
+				5BB236A427FEB7F6001CCC0C /* MyCameraView */,
 			);
 			productName = MyCameraExample;
 			productReference = 5B2D824E27FE98DC00DDC1AE /* MyCameraExample.app */;
@@ -370,7 +370,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5BB236A027FEB77B001CCC0C /* MyCameraView */ = {
+		5BB236A427FEB7F6001CCC0C /* MyCameraView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5BB2369727FEA66A001CCC0C /* XCRemoteSwiftPackageReference "MyCamera" */;
 			productName = MyCameraView;
