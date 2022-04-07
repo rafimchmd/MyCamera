@@ -23,7 +23,7 @@ public class MyCameraView {
     }
     
     public func showController() {
-        if let viewController = UIStoryboard(name: "Storyboard", bundle: nil).instantiateInitialViewController() as? MyCameraViewController {
+        if let viewController = UIStoryboard(name: "Storyboard", bundle: Bundle.module).instantiateInitialViewController() as? MyCameraViewController {
             viewController.modalPresentationStyle = .fullScreen
             self.rootController?.present(viewController, animated: true, completion: nil)
         }
