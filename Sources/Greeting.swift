@@ -10,6 +10,10 @@ import UIKit
 
 public class LiveCamera {
     
+    init() {
+        
+    }
+    
     public func openCamera() {
         print("OPENING LIVENESS CAMERA CHECK")
     }
